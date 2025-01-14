@@ -2,7 +2,15 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        nunitoSans: ["'Nunito Sans'", "sans-serif"],
+      },
+      colors: {
+        appDark: "#202c37",
+        appLight: "#fafafa",
+      },
+    },
   },
   plugins: [],
 };
